@@ -17,7 +17,7 @@ const LoginForm = () => {
     }
     const handleSubmit = async (event) => {
         event.preventDefault();
-        const check = await fetch('http://localhost:8080/api/test/login', {
+        const check = await fetch('https://thearmory-api.onrender.com/api/test/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -28,7 +28,7 @@ const LoginForm = () => {
         const data = await check.json();
         if(data.success){
             try {
-                const response = await fetch('http://localhost:8080/api/test/search/' + name);
+                const response = await fetch('https://thearmory-api.onrender.com/api/test/search/' + name);
                 let user = await response.json();
                 setName('');
                 setPassword('');

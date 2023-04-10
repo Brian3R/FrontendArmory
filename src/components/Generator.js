@@ -29,7 +29,7 @@ const Generator = () => {
     }
     const handleDislike = async () => {
         await outfitScoreChanger(indexes.top,indexes.bottom,indexes.shoes,false);
-        window.location.reload(true);
+        //window.location.reload(true);
     }
     const translateType = (type) => {
         switch(type) {
