@@ -53,7 +53,7 @@ const SignUpForm = () => {
                 setPassword('');
                 sessionStorage.setItem('userid', user._id)
 
-                window.location.reload(true);
+                //window.location.reload(true);
 
         }
         else{
