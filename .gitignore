@@ -1,8 +1,8 @@
 # See httpshelp.github.comarticlesignoring-files for more about ignoring files.
 
 # dependencies
-clientnode_modules
-servernode_modules
+/node_modules
+
 .pnp
 .pnp.js
 
