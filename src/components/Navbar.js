@@ -31,11 +31,11 @@ const Navbar = () => {
                         User Survey
                     </a>
                 </li>
-                {user && <li style={{marginRight:'15px'}}><p>Active User: {user}</p></li>}
-                <li><button onClick={handleSignout}>Sign Out</button></li>
+                
             </ul>
         </nav>
     );
 }
-
+/* {user && <li style={{marginRight:'15px'}}><p>Active User: {user}</p></li>}
+                <li><button onClick={handleSignout}>Sign Out</button></li> */
 export default Navbar;
