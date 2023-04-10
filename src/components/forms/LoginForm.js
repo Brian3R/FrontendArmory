@@ -38,7 +38,7 @@ const LoginForm = () => {
                 console.error(error);
             }
             await setFailure(false);
-            window.location.reload(true);
+            //window.location.reload(true);
             console.log("User Id: " + sessionStorage.getItem('userid'))
         }
         else{
