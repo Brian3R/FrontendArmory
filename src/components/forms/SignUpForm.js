@@ -27,7 +27,7 @@ const SignUpForm = () => {
         const data = await check.json();
         if(data.success){
             try {
-                const response = await fetch('https://thearmory-api.onrender.com/api/test/api/test/', {
+                const response = await fetch('https://thearmory-api.onrender.com/api/test/', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
