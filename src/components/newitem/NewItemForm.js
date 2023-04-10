@@ -68,7 +68,7 @@ const NewItemForm = () => {
         catch (error) {
             console.error(error);
         }
-        window.location.reload(true);
+        //window.location.reload(true);
     }
     const renderTypeDropdown = () => {
         switch(region) {
